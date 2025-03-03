@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Financeiro A.O.S',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 11, 150, 85),
+          seedColor: const Color.fromARGB(255, 61, 0, 85),
         ),
       ),
       home: const MyHomePage(title: 'Aprendendo Flutter! EFG'),
