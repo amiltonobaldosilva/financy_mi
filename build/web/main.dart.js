@@ -29382,7 +29382,7 @@ if(r.$2(a,j)>0){s[b]=j
 b=o}}s[b]=a}}
 A.yJ.prototype={
 S(a){var s=null
-return new A.q_(B.Bk,"Flutter Demo",A.a2n(s,A.a4d(B.J,s,s,B.wA),s),!1,s)}}
+return new A.q_(B.Bk,"Financeiro A.O.S",A.a2n(s,A.a4d(B.J,s,s,B.wA),s),!1,s)}}
 A.qb.prototype={
 aj(){return new A.u3()}}
 A.u3.prototype={
