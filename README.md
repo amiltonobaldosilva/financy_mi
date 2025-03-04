@@ -17,11 +17,11 @@ Este é um aplicativo desenvolvido em **Flutter** para controle financeiro pesso
 ## 🚀 Como Executar  
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/seu-usuario/financy_mi.git
    ```
 2. Acesse a pasta do projeto:  
    ```bash
-   cd nome-do-projeto
+   cd financy_mi
    ```
 3. Instale as dependências:  
    ```bash
