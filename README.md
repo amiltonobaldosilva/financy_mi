@@ -17,7 +17,7 @@ Este é um aplicativo desenvolvido em **Flutter** para controle financeiro pesso
 ## 🚀 Como Executar  
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/financy_mi.git
+   git clone https://github.com/amiltonobaldosilva/financy_mi.git
    ```
 2. Acesse a pasta do projeto:  
    ```bash
