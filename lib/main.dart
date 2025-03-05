@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       title: 'Financeiro A.O.S',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 7, 34, 12),
+          seedColor: const Color.fromARGB(255, 75, 27, 0),
         ),
       ),
       home: const MyHomePage(title: 'Aprendendo Flutter EFG'),
@@ -55,7 +55,12 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text('Você apertou o botão tantas vezes:'),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: TextStyle(
+                color: Colors.red,
+                fontSize: 96.0,
+                fontWeight: FontWeight.bold,
+              ),
+              //style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),
