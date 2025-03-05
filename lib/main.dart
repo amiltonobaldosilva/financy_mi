@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Financeiro A.O.S',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 75, 27, 0),
+          seedColor: const Color.fromARGB(255, 255, 208, 0),
         ),
       ),
       home: const MyHomePage(title: 'Aprendendo Flutter EFG'),
@@ -52,16 +52,17 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('Você apertou o botão tantas vezes:'),
+            const Text('Você apertou o botão:'),
             Text(
               '$_counter',
               style: TextStyle(
-                color: Colors.red,
+                color: const Color.fromARGB(255, 192, 0, 144),
                 fontSize: 96.0,
                 fontWeight: FontWeight.bold,
               ),
               //style: Theme.of(context).textTheme.headlineMedium,
             ),
+            const Text('Vezes!'),
           ],
         ),
       ),
